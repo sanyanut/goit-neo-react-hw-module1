@@ -1,0 +1,21 @@
+.friend_item__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.friend_item__image {
+  margin-bottom: 4px;
+}
+.friend_item__name {
+  font-size: 18px;
+}
+.friend_item__status {
+  font-size: 14px;
+}
+.online {
+  color: green;
+}
+.offline {
+  color: red;
+}
