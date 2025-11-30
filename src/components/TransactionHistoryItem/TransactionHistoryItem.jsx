@@ -11,7 +11,7 @@ function TransactionHistoryItem({ type, amount, currency }) {
   );
 }
 
-TransactionHistoryItem.PropTypes = {
+TransactionHistoryItem.propTypes = {
   type: PropTypes.string.isRequired,
   amount: PropTypes.string.isRequired,
   currency: PropTypes.string.isRequired,

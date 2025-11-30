@@ -24,7 +24,7 @@ export default function Profile({ name, tag, location, image, stats }) {
   );
 }
 
-Profile.PropTypes = {
+Profile.propTypes = {
   name: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
